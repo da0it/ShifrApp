@@ -1,0 +1,24 @@
+﻿@model ShifrApp.Models.EncryptionModel
+
+@{
+    ViewBag.Title = "SHA256 encryption test";
+}
+
+<h2>SHA256 Encryption</h2>
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <div>
+        <label for="input">Введите строку для шифрования:</label>
+        @Html.TextBoxFor(m => m.Input, new { id = "input"})
+        <button type="submit">Зашифровать</button>
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(Model.EncryptedString))
+{
+    <div>
+        <h4>Результат шифрования:</h4>
+        <p>@Model.EncryptedString</p>
+    </div>
+}
