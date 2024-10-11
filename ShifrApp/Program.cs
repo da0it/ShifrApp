@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Identity;
-using ShifrApp.Models;
+using ShifrApp.Database;
 
 var builder = WebApplication.CreateBuilder(args);
 

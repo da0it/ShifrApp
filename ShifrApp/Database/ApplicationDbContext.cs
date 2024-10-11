@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace ShifrApp.Models;
+namespace ShifrApp.Database;
 
 public class ApplicationDbContext : IdentityDbContext<User>
 {
