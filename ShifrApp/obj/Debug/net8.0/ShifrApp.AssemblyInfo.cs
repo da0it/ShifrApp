@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShifrApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+896fd5b9ac7c30ce70ec5d226c79f6ee13a8641a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59e57637254fe89bc862f2fb04d92365f4f48043")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShifrApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShifrApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

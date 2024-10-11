@@ -1,7 +1,15 @@
+using Microsoft.AspNetCore.Identity;
+using ShifrApp.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddAuthorization();
+builder.Services.AddAuthentication().AddCookie(Microsoft.AspNetCore.Identity.IdentityConstants.ApplicationScheme);
+builder.Services.AddIdentityCore<User>()
+	.AddEntityFrameworkStores<ApplicationDbContext>()
+	.AddApiEndpoints();
 
 var app = builder.Build();
 
