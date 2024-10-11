@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ShifrApp",
+    "\\ShifrApp\\Database",
+    "\\ShifrApp\\Extensions"
+  ],
+  "SelectedNode": "\\ShifrApp\\Database\\ApplicationDbContext.cs",
+  "PreviewInSolutionExplorer": false
+}
