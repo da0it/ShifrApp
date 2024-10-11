@@ -2,7 +2,7 @@
 
 namespace ShifrApp.Database;
 
-public class user : IdentityUser
+public class User : IdentityUser
 {
-    public string? Initiasls { get; set; }
+    public string? Initials { get; set; }
 }

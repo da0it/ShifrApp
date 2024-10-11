@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\ShifratorApp\\sh_app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|d:\\shifratorapp\\sh_app\\shifrapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|solutionrelative:shifrapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|d:\\shifratorapp\\sh_app\\shifrapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|solutionrelative:shifrapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|d:\\shifratorapp\\sh_app\\shifrapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|solutionrelative:shifrapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|d:\\shifratorapp\\sh_app\\shifrapp\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|solutionrelative:shifrapp\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|d:\\shifratorapp\\sh_app\\shifrapp\\database\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|solutionrelative:shifrapp\\database\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|d:\\shifratorapp\\sh_app\\shifrapp\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|solutionrelative:shifrapp\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|d:\\shifratorapp\\sh_app\\shifrapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|solutionrelative:shifrapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|d:\\shifratorapp\\sh_app\\shifrapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|solutionrelative:shifrapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BFAB06E-F93C-4F46-9B49-C2257BCE1B5E}|ShifrApp\\ShifrApp.csproj|d:\\shifratorapp\\sh_app\\shifrapp\\models\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,45 +50,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShifrApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ShifrApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-06T20:46:01.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ShifrApp\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ShifrApp\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwBsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T20:31:39.213Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\ShifratorApp\\sh_app\\ShifrApp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ShifrApp\\appsettings.Development.json",
+              "ToolTip": "D:\\ShifratorApp\\sh_app\\ShifrApp\\appsettings.Development.json",
+              "RelativeToolTip": "ShifrApp\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-11T13:02:28.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "MigrationExtensions.cs",
+              "DocumentMoniker": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Extensions\\MigrationExtensions.cs",
+              "RelativeDocumentMoniker": "ShifrApp\\Extensions\\MigrationExtensions.cs",
+              "ToolTip": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Extensions\\MigrationExtensions.cs",
+              "RelativeToolTip": "ShifrApp\\Extensions\\MigrationExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T12:47:03.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Models\\HomeController.cs",
               "RelativeDocumentMoniker": "ShifrApp\\Models\\HomeController.cs",
               "ToolTip": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Models\\HomeController.cs",
               "RelativeToolTip": "ShifrApp\\Models\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T20:30:34.369Z"
+              "WhenOpened": "2024-10-11T12:34:44.082Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Database\\User.cs",
+              "RelativeDocumentMoniker": "ShifrApp\\Database\\User.cs",
+              "ToolTip": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Database\\User.cs",
+              "RelativeToolTip": "ShifrApp\\Database\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T12:44:29.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Program.cs",
+              "RelativeDocumentMoniker": "ShifrApp\\Program.cs",
+              "ToolTip": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Program.cs",
+              "RelativeToolTip": "ShifrApp\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T12:34:32.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Database\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ShifrApp\\Database\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Database\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ShifrApp\\Database\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T12:34:04.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ShifrApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\ShifratorApp\\sh_app\\ShifrApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ShifrApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T09:44:14.832Z",
+              "EditorCaption": ""
             }
           ]
         }
