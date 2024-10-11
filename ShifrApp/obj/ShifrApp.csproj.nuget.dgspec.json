@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ShifrApp\\ShifrApp\\ShifrApp\\ShifrApp.csproj": {}
+    "D:\\ShifratorApp\\sh_app\\ShifrApp\\ShifrApp.csproj": {}
   },
   "projects": {
-    "D:\\ShifrApp\\ShifrApp\\ShifrApp\\ShifrApp.csproj": {
+    "D:\\ShifratorApp\\sh_app\\ShifrApp\\ShifrApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ShifrApp\\ShifrApp\\ShifrApp\\ShifrApp.csproj",
+        "projectUniqueName": "D:\\ShifratorApp\\sh_app\\ShifrApp\\ShifrApp.csproj",
         "projectName": "ShifrApp",
-        "projectPath": "D:\\ShifrApp\\ShifrApp\\ShifrApp\\ShifrApp.csproj",
+        "projectPath": "D:\\ShifratorApp\\sh_app\\ShifrApp\\ShifrApp.csproj",
         "packagesPath": "C:\\Users\\nikul\\.nuget\\packages\\",
-        "outputPath": "D:\\ShifrApp\\ShifrApp\\ShifrApp\\obj\\",
+        "outputPath": "D:\\ShifratorApp\\sh_app\\ShifrApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
