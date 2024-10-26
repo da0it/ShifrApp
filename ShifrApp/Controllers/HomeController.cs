@@ -5,6 +5,8 @@ using ShifrApp.Models;
 using System.Security.Cryptography;
 using System.Text;
 using System.Runtime.Intrinsics.Arm;
+using Kuznyechik;
+
 
 namespace ShifrApp.Controllers
 {
@@ -30,7 +32,7 @@ namespace ShifrApp.Controllers
         {
             if (!string.IsNullOrEmpty(model.Input))
             {
-                model.EncryptedString = EncryptSha256(model.Input);
+                model.EncryptedString = EncryptGrassHopper(model.Input);
             }
             else
             {
@@ -48,7 +50,7 @@ namespace ShifrApp.Controllers
 
 
 
-		private string EncryptSha256(string rawData)
+/*		private string EncryptSha256(string rawData)
 		{
 			using (SHA256 sha256Hash = SHA256.Create())
 			{
@@ -62,7 +64,28 @@ namespace ShifrApp.Controllers
 					builder.Append(bytes[i].ToString("x2"));
 				}
 				return builder.ToString();
+
 			}
 		}
+*/
+
+		private static string EncryptGrassHopper(string rawData)
+		{
+			string text = rawData;
+            byte[] key = new byte[32];
+            byte[] message = Encoding.UTF8.GetBytes(text);
+
+            {
+                Random random = new Random();
+                random.NextBytes(key);
+            }
+
+            Scrambler scrambler = new Scrambler(key);
+
+            scrambler.Encrypt(ref message);
+
+            string outText = Encoding.UTF8.GetString(message);
+			return outText;
+        }
 	}
 }

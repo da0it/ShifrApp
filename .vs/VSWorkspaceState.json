@@ -3,8 +3,9 @@
     "",
     "\\ShifrApp",
     "\\ShifrApp\\Database",
-    "\\ShifrApp\\Extensions"
+    "\\ShifrApp\\Extensions",
+    "\\ShifrApp\\Models"
   ],
-  "SelectedNode": "\\ShifrApp\\Database\\ApplicationDbContext.cs",
+  "SelectedNode": "\\ShifrApp\\Models\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
