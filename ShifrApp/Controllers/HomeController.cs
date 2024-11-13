@@ -5,7 +5,7 @@ using ShifrApp.Models;
 using System.Security.Cryptography;
 using System.Text;
 using System.Runtime.Intrinsics.Arm;
-using Kuznyechik;
+using ShifrApp.cipher;
 
 
 namespace ShifrApp.Controllers
@@ -32,7 +32,7 @@ namespace ShifrApp.Controllers
         {
             if (!string.IsNullOrEmpty(model.Input))
             {
-                model.EncryptedString = EncryptGrassHopper(model.Input);
+                model.EncryptedString = EncryptGrassHopper2(model.Input);
             }
             else
             {
@@ -48,44 +48,25 @@ namespace ShifrApp.Controllers
 			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
 		}
 
-
-
-/*		private string EncryptSha256(string rawData)
+        private static string EncryptGrassHopper2(string text) //Заглушка - на вход всегда подается тестовое значение для проверки корректности работы шифра
 		{
-			using (SHA256 sha256Hash = SHA256.Create())
-			{
-				//вычисление хэша
-				byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(rawData));
-
-				// Преобразование байтов в строку (hex формат)
-				StringBuilder builder = new StringBuilder();
-				for (int i = 0; i < bytes.Length; i++)
-				{
-					builder.Append(bytes[i].ToString("x2"));
-				}
-				return builder.ToString();
-
-			}
-		}
-*/
-
-		private static string EncryptGrassHopper(string rawData)
-		{
-			string text = rawData;
-            byte[] key = new byte[32];
-            byte[] message = Encoding.UTF8.GetBytes(text);
-
-            {
-                Random random = new Random();
-                random.NextBytes(key);
-            }
-
-            Scrambler scrambler = new Scrambler(key);
-
-            scrambler.Encrypt(ref message);
-
-            string outText = Encoding.UTF8.GetString(message);
-			return outText;
+            byte[] result = System.Convert.FromHexString(text);
+            byte[] padded_text = PaddArray(result);
+            Array.Reverse(padded_text);
+            string out_data = cipher.Kuznechik.KuznechikEncrypt(padded_text);
+			return out_data;
         }
-	}
+
+        //Добавление нулей в массив байтов, если длина сообщения меньше BLOCK_SIZE
+        static byte[] PaddArray(byte[] bytes)
+        {
+            if (bytes.Length < 16)
+            {
+                byte[] paddedBytes = new byte[16];
+                Array.Copy(bytes, paddedBytes, bytes.Length);
+                return paddedBytes;
+            }
+            return bytes;
+        }
+    }
 }
