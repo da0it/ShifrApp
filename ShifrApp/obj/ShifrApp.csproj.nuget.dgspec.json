@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ShifratorApp\\sh_app\\ShifrApp\\ShifrApp.csproj": {}
+    "D:\\ShifrApp\\ShifrApp\\ShifrApp\\ShifrApp.csproj": {}
   },
   "projects": {
-    "D:\\ShifratorApp\\sh_app\\ShifrApp\\ShifrApp.csproj": {
+    "D:\\ShifrApp\\ShifrApp\\ShifrApp\\ShifrApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ShifratorApp\\sh_app\\ShifrApp\\ShifrApp.csproj",
+        "projectUniqueName": "D:\\ShifrApp\\ShifrApp\\ShifrApp\\ShifrApp.csproj",
         "projectName": "ShifrApp",
-        "projectPath": "D:\\ShifratorApp\\sh_app\\ShifrApp\\ShifrApp.csproj",
+        "projectPath": "D:\\ShifrApp\\ShifrApp\\ShifrApp\\ShifrApp.csproj",
         "packagesPath": "C:\\Users\\nikul\\.nuget\\packages\\",
-        "outputPath": "D:\\ShifratorApp\\sh_app\\ShifrApp\\obj\\",
+        "outputPath": "D:\\ShifrApp\\ShifrApp\\ShifrApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,26 +48,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity": {
-              "target": "Package",
-              "version": "[2.1.39, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.10, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[8.0.8, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
